@@ -33,32 +33,32 @@ global.APIKeys = {
 }
 
 //settings
-global.owner = ['27634090203',''] //owner number +27634090203
-global.pemilik = ['27634090203'] //owner number +27634090203
-global.premium = ['27634090203'] //premium number +27634090203
-global.pengguna = 'Drips' //username
-global.footer = 'ZIM BOT INC'
-global.botnma = 'ZIM BOT INC' //bot name
-global.ownernma = 'Drips' //owner name
-global.packname = 'Drips' //sticker package name
-global.author = 'By Drips Memes' //sticker author name
+global.owner = ['6285891214734',''] //owner number 
+global.pemilik = ['6282196995322'] //owner number 
+global.premium = ['6287894034440'] //premium number
+global.pengguna = 'Geral' //username
+global.footer = 'Wangsaf Bot'
+global.botnma = 'NekoPoi' //bot name
+global.ownernma = 'Geral' //owner name
+global.packname = 'Ral' //sticker package name
+global.author = 'ft pia' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = ['#','!','/',''] //prefix
+global.prefa = ['#','!','/','.'] //prefix
 global.sp = '🔵' //sp
 global.mess = {
-    success: 'Takaenda Done!',
-    admin: '*This feature is only for admin!*',
-    botAdmin: '*zim bot  must be admin first!*',
-    owner: '*this feature is only for zimbot owner*',
-    group: '*Feature is only for groups!*',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature in only for the bot number',
-    wait: '*whoa wait a moment zim bot proccessing*',
-    endLimit: '*Your daily limit has expired the limit will be reseted every 12 hours*',
+    success: 'Dah!',
+    admin: '*Fitur Cuman Bisa Admin*',
+    botAdmin: '*Cuma Bisa BotAdmin*',
+    owner: '*cuma Bisa Owner*',
+    group: '*Only Group*',
+    private: 'Only Private Chat!',
+    bot: 'yntkts',
+    wait: '*sabar orang sabar disayang tuhan*',
+    endLimit: '*Limit Lu Habis Tag Owner Atau Pm Buat Reset,Ato Tunggu 12 jam*',
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 100000 //free user limit
+    free: 15 //free user limit
 }
 global.rpg = {
 darahawal: 100,
