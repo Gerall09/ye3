@@ -121,12 +121,12 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
 
             if (anu.action == 'add') {
                let buttons = [
-                    {buttonId: 'id1', buttonText: {displayText: 'WELCOME'}, type: 1},
+                    {buttonId: 'id1', buttonText: {displayText: 'YO'}, type: 1},
                     
                   ]
                   const buttonMessage = {
-                    text: `*Welcome to* ${metadata.subject} @${num.split("@")[0]} *feel at home , here you are chilling with big boys/girls water to the people*`,
-                    footer: 'ZIM BOT INC',
+                    text: `*Welcome to* ${metadata.subject} @${num.split("@")[0]} *Halo 👋 Mogah Betah*`,
+                    footer: 'Welcome Vroh',
                     buttons: buttons,
                     headerType: 1
                   
@@ -135,12 +135,12 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
                 ZimBotInc.sendMessage(anu.id, buttonMessage,   { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
             } else if (anu.action == 'remove') {
                 let buttons = [
-                    {buttonId: 'id1', buttonText: {displayText: 'BYE'}, type: 1},
+                    {buttonId: 'id1', buttonText: {displayText: 'SAYONARA'}, type: 1},
                     
                   ]
                   const buttonMessage = {
                     text: `*LEAVING* ${metadata.subject} @${num.split("@")[0]} *DONT COME BACK HERE OKAY!*`,
-                    footer: 'ZIM BOT INC',
+                    footer: 'Sayonara',
                     buttons: buttons,
                     headerType: 1
                   
